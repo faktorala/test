@@ -1,0 +1,20 @@
+{
+    "configurations": [
+      {
+        "name": "linux-gcc-x64",
+        "includePath": [
+          "${workspaceFolder}/**",
+          "/usr/include",
+          "/usr/opencv-4.11.0.tar./opencv-4.11.0/install/include/opencv4",
+          "/usr/opencv-4.11.0.tar./opencv-4.11.0/install/include/opencv4/opencv2",
+          "/usr/opencv-4.11.0.tar./opencv-4.11.0/install/lib"
+        ],
+        "defines": [],
+        "compilerPath": "/usr/bin/gcc",
+        "cStandard": "c17",
+        "cppStandard": "gnu++17",
+        "intelliSenseMode": "linux-gcc-x64"
+      }
+    ],
+    "version": 4
+  }
