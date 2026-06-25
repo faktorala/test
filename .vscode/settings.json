@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
     "C_Cpp_Runner.cCompilerPath": "/usr/bin/gcc",
     "C_Cpp_Runner.cppCompilerPath": "/usr/bin/g++",
     "C_Cpp_Runner.debuggerPath": "/usr/bin/gdb",
@@ -69,3 +70,8 @@
       "cmath": "cpp"
     }
   }
+=======
+    "trae.tab.enableRename": false,
+    "trae.tab.enableAutoImport": false
+}
+>>>>>>> 1c200103bee24a98322b80eab32a1b7216af29b0

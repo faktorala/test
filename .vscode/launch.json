@@ -1,6 +1,7 @@
 {
     "version": "0.2.0",
     "configurations": [
+<<<<<<< HEAD
       {
         "name": "C/C++ Runner: Debug Session",
         "type": "cppdbg",
@@ -22,3 +23,34 @@
       }
     ]
   }
+=======
+        
+        {
+            "name": "Debug OpenCV Program",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [
+                {
+                    "name": "PATH",
+                    "value": "D:\\Toolchains\\msys2\\mingw64\\bin;${env:PATH}"
+                }
+            ],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "miDebuggerPath": "D:\\Toolchains\\msys2\\mingw64\\bin\\gdb.exe",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "g++ build active file"
+        }
+    ]
+}
+>>>>>>> 1c200103bee24a98322b80eab32a1b7216af29b0

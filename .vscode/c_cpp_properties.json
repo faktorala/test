@@ -1,5 +1,6 @@
 {
     "configurations": [
+<<<<<<< HEAD
       {
         "name": "linux-gcc-x64",
         "includePath": [
@@ -18,3 +19,27 @@
     ],
     "version": 4
   }
+=======
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${vcpkgRoot}/x64-windows/include",
+                "D:\\Toolchains\\msys2\\mingw64\\include\\opencv4",
+                "D:\\Toolchains\\msys2\\mingw64\\lib",
+                "D:\\Toolchains\\msys2\\mingw64\\include\\opencv4\\opencv2"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "compilerPath": "D:\\Toolchains\\msys2\\mingw64\\bin\\g++.exe",
+            "cStandard": "c17",
+            "cppStandard": "gnu++17",
+            "intelliSenseMode": "windows-gcc-x64"
+        }
+    ],
+    "version": 4
+}
+>>>>>>> 1c200103bee24a98322b80eab32a1b7216af29b0
